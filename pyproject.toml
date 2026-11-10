@@ -1,0 +1,10 @@
+[project]
+name = "dissertation-rag"
+version = "0.1.0"
+description = "A document-scanning Retrieval-Augmented-Generation engine with a web UI."
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+addopts = "-q"

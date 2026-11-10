@@ -1,0 +1,17 @@
+{
+  "name": "Dissertation-Rag",
+  "install": "bash .cursor/install.sh",
+  "terminals": [
+    {
+      "name": "rag-server",
+      "command": "source .venv/bin/activate && uvicorn ragscanner.app:app --host 0.0.0.0 --port 8000",
+      "description": "Runs the Dissertation-Rag FastAPI server (web UI + JSON API) on port 8000."
+    }
+  ],
+  "ports": [
+    {
+      "name": "rag-web",
+      "port": 8000
+    }
+  ]
+}

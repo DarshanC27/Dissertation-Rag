@@ -1,13 +1,20 @@
-# Dissertation-Rag
+<div align="center">
 
-A document-scanning **Retrieval-Augmented-Generation (RAG)** engine with a web
-UI and JSON API. Point it at your notes, papers, and PDFs; it scans and chunks
-them, indexes the chunks with TF-IDF, and answers questions grounded in the
-retrieved passages.
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0e27,100:6e40c9&height=200&section=header&text=Dissertation-Rag&fontSize=56&fontColor=ffffff&fontAlignY=36&desc=Document-scanning%20RAG%20engine&descSize=17&descAlignY=58&animation=fadeIn" alt="Dissertation-Rag"/>
 
-The default retrieval + extractive-answer pipeline runs **fully offline with no
-API keys**. If `OPENAI_API_KEY` is set, answers are additionally synthesized by
-an LLM, but this is optional.
+**Point it at notes, papers and PDFs: it scans, chunks and indexes them, then answers questions grounded in the retrieved passages.**<br/>Runs fully offline by default — no API keys required.
+
+<img src="https://img.shields.io/badge/Python-3.12-3776ab?style=for-the-badge&labelColor=0a0e27&logo=python&logoColor=white" alt="Python"/>
+<img src="https://img.shields.io/badge/FastAPI-web%20UI%20%2B%20API-009688?style=for-the-badge&labelColor=0a0e27&logo=fastapi&logoColor=white" alt="FastAPI"/>
+<img src="https://img.shields.io/badge/Retrieval-TF--IDF-6e40c9?style=for-the-badge&labelColor=0a0e27" alt="Retrieval"/>
+<img src="https://img.shields.io/badge/Tests-pytest-0a9edc?style=for-the-badge&labelColor=0a0e27&logo=pytest&logoColor=white" alt="Tests"/>
+<img src="https://img.shields.io/badge/Licence-MIT-16213e?style=for-the-badge&labelColor=0a0e27" alt="Licence"/>
+
+[Quick start](#quick-start) · [Layout](#project-layout)
+
+</div>
+
+---
 
 ## Features
 
